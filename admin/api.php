@@ -16,9 +16,9 @@
     $tmpArr = array($nonce,$timestamp,$token);
     sort($tmpArr);
     $str = sha1(implode($tmpArr));
-    if($str == $echostr && $signature){
+    if($str == $signature && $echostr){
         // 第一次介入微信
-        echo true;
+        echo $echostr;
         exit;
     }
 ?>
