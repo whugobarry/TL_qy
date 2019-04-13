@@ -14,6 +14,7 @@
                 'port'=>'3306',
                 'database'=>'www_yufei_fun'
             ];
+            return $config;
         }
     } 
 ?>
