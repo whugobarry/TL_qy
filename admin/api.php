@@ -21,5 +21,9 @@
         // 第一次介入微信
         echo $echostr;
         exit;
+    } else {
+        // 获取微信推送的 post 数据
+        $postArr = $GLOBALS['HTTP_RAW_POST_DATA'];
+        var_dump($postArr);
     }
 ?>
