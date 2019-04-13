@@ -12,6 +12,7 @@
     $nonce = $_REQUEST['nonce'];
     $token = 'mrsky';
     $timestamp = $_REQUEST['timestamp'];
+    $echostr = $_REQUEST['echostr'];
     // 形成数组
     $tmpArr = array($nonce,$timestamp,$token);
     sort($tmpArr);
