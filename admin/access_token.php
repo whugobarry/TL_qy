@@ -11,7 +11,7 @@
     $second = time();
     echo $second;
     echo '<br />';
-    echo date($second);
+    echo date('y-m-d',$second);
 
     function getAccess($url,$data){
         if($url == ''){
