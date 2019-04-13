@@ -12,5 +12,5 @@
         }
     }
     $connect = new Connect(); 
-    $connect->connect($conig);
+    // $connect->connect($conig);
 ?>
