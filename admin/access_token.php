@@ -10,6 +10,7 @@
      * */ 
     $second = time();
     echo $second;
+    echo '<br />';
     echo date($second);
 
     function getAccess($url,$data){
