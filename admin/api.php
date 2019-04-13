@@ -10,7 +10,7 @@
      */
     $signature = $_REQUEST['signature'];
     $nonce = $_REQUEST['nonce'];
-    $token = 'tl_qy20190314';
+    $token = 'tlqy_20190314';
     $timestamp = $_REQUEST['timestamp'];
     // 形成数组
     $tmpArr = array($nonce,$timestamp,$token);
